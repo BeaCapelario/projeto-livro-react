@@ -1,0 +1,27 @@
+/* Color Theme Swatches in Hex
+.Reino-dos-Sonhos-1-hex { color: #0A0A0A; }
+.Reino-dos-Sonhos-2-hex { color: #1A237E; }
+.Reino-dos-Sonhos-3-hex { color: #4A148C; }
+.Reino-dos-Sonhos-4-hex { color: #00695C; }
+.Reino-dos-Sonhos-5-hex { color: #722F37; }
+.Reino-dos-Sonhos-6-hex { color: #424242; }
+.Reino-dos-Sonhos-7-hex { color: #F5F1E6; } */
+
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Manrope:wght@200..800&display=swap");
+
+/* Titulo: font-family: "Abril Fatface", serif; */
+/* Texto: font-family: "Crimson Text", serif;*/
+/* Botões e Links: font-family: "Manrope", sans-serif;*/
+
+
+
+
+header {
+  background-color: #1a237e;
+  color: #f5f1e6;
+  font-family: "Abril Fatface", serif ;
+  font-size: 50px;
+  border-bottom: #00695c 3px solid;
+  height: 150px;
+}
+
