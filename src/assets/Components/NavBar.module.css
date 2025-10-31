@@ -1,12 +1,47 @@
+/* Color Theme Swatches in Hex
+.Reino-dos-Sonhos-1-hex { color: #0A0A0A; }
+.Reino-dos-Sonhos-2-hex { color: #1A237E; }
+.Reino-dos-Sonhos-3-hex { color: #4A148C; }
+.Reino-dos-Sonhos-4-hex { color: #00695C; }
+.Reino-dos-Sonhos-5-hex { color: #722F37; }
+.Reino-dos-Sonhos-6-hex { color: #424242; }
+.Reino-dos-Sonhos-7-hex { color: #F5F1E6; } */
+
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Manrope:wght@200..800&display=swap");
+
+/* Titulo: font-family: "Abril Fatface", serif; */
+/* Texto: font-family: "Crimson Text", serif;*/
+/* Botões e Links: font-family: "Manrope", sans-serif;*/
+
 .navbar {
-    height: 100px;
-    background-color:#A6A6A6;
-    color: black;
-    font-weight: bold;
+  height: 100px;
+  background-color: #0a0a0a;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #4A148C;
+  box-shadow: 0 2px 8px rgba(74, 20, 140, 0.1);
 }
 
 ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 40px;
+}
+
+ul a {
+  color: #f5f1e6;
+  text-decoration: none;
+  font-family: "Manrope", sans-serif;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+ul a:hover {
+  background: #4A148C;
+  border-radius: 25px;
+  transition: all 0.3s ease;
 }

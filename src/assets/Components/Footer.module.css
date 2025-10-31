@@ -1,0 +1,24 @@
+.Footer {
+  background-color: #0A0A0A;
+  background-image: linear-gradient(
+    to top,
+    #4A148C,
+    #0A0A0A
+  ); 
+  border-top: 1px solid #4A148C;
+  box-shadow: 0 -2px 8px rgba(74, 20, 140, 0.1); 
+  padding: 40px 20px;
+  height: 150px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Footer p {
+  font-family: "Abril Fatface", serif; 
+  color: #f5f1e6;
+  font-size: 24px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  margin: 0;
+}

@@ -13,15 +13,22 @@
 /* Texto: font-family: "Crimson Text", serif;*/
 /* Botões e Links: font-family: "Manrope", sans-serif;*/
 
-
-
-
 header {
-  background-color: #1a237e;
-  color: #f5f1e6;
-  font-family: "Abril Fatface", serif ;
+  background-color: #0A0A0A;
+  background-image: linear-gradient(
+    to bottom,
+    #4A148C,
+    #0A0A0A
+  );
   font-size: 50px;
-  border-bottom: #00695c 3px solid;
-  height: 150px;
+  height: 200px;
+  padding: 20px; border-bottom: 1px solid #4A148C;
+  box-shadow: 0 2px 8px rgba(74, 20, 140, 0.1);
 }
 
+header h1 {
+  color: #f5f1e6;
+  font-family: "Abril Fatface", serif;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
