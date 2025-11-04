@@ -14,15 +14,14 @@
 /* Botões e Links: font-family: "Manrope", sans-serif;*/
 
 header {
-  background-color: #0A0A0A;
   background-image: linear-gradient(
     to bottom,
-    #4A148C,
+    #8B0000, 
     #0A0A0A
   );
   font-size: 50px;
   height: 200px;
-  padding: 20px; border-bottom: 1px solid #4A148C;
+  padding: 20px;
   box-shadow: 0 2px 8px rgba(74, 20, 140, 0.1);
 }
 

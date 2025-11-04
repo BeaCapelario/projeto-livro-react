@@ -1,11 +1,10 @@
 .Footer {
-  background-color: #0A0A0A;
-  background-image: linear-gradient(
+ background-image: linear-gradient(
     to top,
-    #4A148C,
-    #0A0A0A
-  ); 
-  border-top: 1px solid #4A148C;
+    #8B0000,
+    #0a0a0a
+  );
+  border-top: 1px solid #8B0000;
   box-shadow: 0 -2px 8px rgba(74, 20, 140, 0.1); 
   padding: 40px 20px;
   height: 150px; 

@@ -5,7 +5,7 @@ export function NavBar () {
     return(
         <nav className={estilo.navbar}>
             <ul>
-                <Link to= '/'><li>Meu livro</li></Link>
+                <Link to= '/'><li>Livro</li></Link>
                 <Link to= 'autor'><li>Autor</li></Link>
                 <Link to= 'curiosidade'><li>Curiosidades</li></Link>
             </ul>

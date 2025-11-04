@@ -1,7 +1,9 @@
+import estilo from "../assets/Components/Conteudo.module.css";
+
 export function Curiosidades() {
     return(
-        <main>
-            <h1> Curiosidades </h1>
+        <main className={estilo.container}>
+            
         </main>
     )
 }
