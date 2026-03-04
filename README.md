@@ -1,16 +1,31 @@
-# React + Vite
+# Projeto Livro React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="left">
+  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React">
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
+  <img src="https://img.shields.io/badge/styled--components-%23DB7093.svg?style=for-the-badge&logo=styled-components&logoColor=white" alt="Styled Components">
+  <img src="https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge" alt="Status">
+</p>
 
-Currently, two official plugins are available:
+Este repositório contém o desenvolvimento de uma aplicação web para gerenciamento ou exibição de livros utilizando a biblioteca React. O projeto foca na construção de uma interface modular, explorando o ecossistema de componentes e a estilização moderna para criar uma experiência de usuário eficiente e organizada.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+### O que foi explorado:
+* Componentização Avançada: Divisão da interface em partes independentes e reutilizáveis.
+* Gerenciamento de Estado: Controle de fluxos de dados e interações dentro da aplicação.
+* CSS-in-JS: Utilização de bibliotecas como Styled Components para estilização dinâmica.
+* Renderização de Listas: Manipulação e exibição de dados provenientes de coleções de objetos.
+* Hooks do React: Aplicação de lógica funcional para controle de ciclos de vida e estados.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+### Tecnologias Utilizadas
+| Tecnologia | Descrição |
+| :--- | :--- |
+| React.js | Biblioteca principal para construção da interface. |
+| JavaScript | Lógica de programação e manipulação de dados. |
+| Styled Components | Estilização baseada em componentes. |
+| Node.js | Ambiente de execução e gerenciamento de pacotes. |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
